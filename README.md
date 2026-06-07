@@ -32,6 +32,8 @@ Important files:
 
 - `data/b096242.txt`
 - `src/a096242.c`
+- `paper/A096242.tex`
+- `paper/A096242.pdf`
 - `levels_manifest.tsv`
 - `validation/validation_summary.md`
 - `cert/a096242_level_certifier.c`
@@ -72,17 +74,10 @@ Generated level files may be compared against `levels_manifest.tsv`.
 
 Current repository files:
 
-- `paper/A096242_v10.tex`
-- `paper/A096242_v10.pdf`
-
-For the public release, it is recommended to rename them to:
-
 - `paper/A096242.tex`
 - `paper/A096242.pdf`
 
-to provide stable public filenames.
-
-`A096242_v10` is the current manuscript candidate.  It clarifies that
+The manuscript clarifies that
 `levels/*.bin` paths in the paper and validation reports refer to generated
 local campaign artifacts, not files included in the public repository.
 
@@ -98,15 +93,6 @@ See `LICENSE`.
 
 Citation metadata are provided in `CITATION.cff`.
 
-After Zenodo archival, update:
-
-- repository URL;
-- Zenodo DOI;
-- release version;
-- release date.
-
 ## Zenodo
 
-Do not insert a DOI placeholder into the paper or README before the first Zenodo archive is created.
-
-Activate the GitHub repository in Zenodo before creating GitHub Release `v1.0`.
+Archived release: https://doi.org/10.5281/zenodo.20581301

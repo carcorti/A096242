@@ -589,23 +589,19 @@ of large generated levels.
 \section*{Data availability}
 
 The code, extended b-file, validation reports, saved-level certifier, and
-level manifest are part of the local project package.  At this draft stage
-they are GitHub-ready local artifacts, not yet a public immutable archive.
-They are to be included in the project repository and archive listed in the
-References when those public artifacts are finalized.  The principal artifacts
-are the C17 source and Makefile, \path{data/b096242.txt},
+level manifest are available in the public GitHub repository and its Zenodo
+archive \cite{cortiA096242Package2026}.  The project repository is
+\url{https://github.com/carcorti/A096242}, and the archived release is
+available at \url{https://doi.org/10.5281/zenodo.20581301}.  The principal
+artifacts are the C17 source and Makefile, \path{data/b096242.txt},
 \path{levels_manifest.tsv}, the run-evaluation reports, the saved-level
 certifier source, and the GMP-based \(D_{11}\) re-enumerator source
 \path{cert/a096242_d11_gmp_reenumerate.c}.  The binary files
-\path{levels/D01.bin} through
-\path{levels/D14.bin} are generated local artifacts, not intended contents of
-the minimal GitHub repository.  They are regenerable from the source code and
-checkable against the manifest counts, byte sizes, and SHA-256 hashes.
-Before final archival release, the public package should also record any
-available final commit or tag, Zenodo DOI, and any recovered production
-environment metadata or original-production timing/RSS records.  A local
-Markdown mirror of Sinclair's witness table is included in the GitHub-ready
-package as
+\path{levels/D01.bin} through \path{levels/D14.bin} are generated local
+artifacts, not intended contents of the minimal GitHub repository.  They are
+regenerable from the source code and checkable against the manifest counts,
+byte sizes, and SHA-256 hashes.  A local Markdown mirror of Sinclair's
+witness table is included in the public package as
 \path{references/sinclair_miller_rabin_sprp_bases.md}.
 
 \section*{AI use disclosure}
@@ -650,8 +646,8 @@ author.  AI systems supplied drafts, edits, and review suggestions; the final
 verifying revision and acceptance of the text were performed by the human
 author.  Every quantitative claim included here was checked against the local
 computational artifacts: the OEIS source snapshot, the extended b-file, the
-level manifest, the run-evaluation reports, the GitHub-ready validation
-summary, and the certifier report.
+level manifest, the run-evaluation reports, the validation summary, and the
+certifier report.
 
 The author takes full scientific responsibility for the mathematical
 statements, the algorithm, the implementation, the numerical results, the
@@ -696,7 +692,7 @@ Jim Sinclair,
 online table of deterministic Miller--Rabin bases.
 \url{https://miller-rabin.appspot.com/}.
 Accessed June 6, 2026.  A local Markdown mirror of the cited table is
-included in the GitHub-ready package as
+included in the public package as
 \path{references/sinclair_miller_rabin_sprp_bases.md}.
 
 \bibitem{Jaeschke1993}
@@ -721,9 +717,9 @@ Proceedings 1326 (2015), 20--30.
 \bibitem{cortiA096242Package2026}
 C. Corti,
 \emph{A096242: Computational package for OEIS sequence A096242},
-planned GitHub repository and Zenodo archive, 2026.
+GitHub repository and Zenodo archive, 2026.
 \url{https://github.com/carcorti/A096242}.
-Zenodo DOI to be assigned after final synchronization and archival.
+\url{https://10.5281/zenodo.20581301}.
 
 \end{thebibliography}
 

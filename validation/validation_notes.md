@@ -1,7 +1,10 @@
 # Validation Notes
 
-This raw GitHub package intentionally archives reproducibility material rather
-than raw terminal logs or large generated binary levels.
+This public GitHub/Zenodo package intentionally archives reproducibility
+material rather than raw terminal logs or large generated binary levels.
+
+Repository: <https://github.com/carcorti/A096242>  
+Archive DOI: <https://doi.org/10.5281/zenodo.20581301>
 
 The binary level files `levels/D*.bin` are generated artifacts. They are not
 included in this package because the largest files are multi-GB outputs. They

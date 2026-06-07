@@ -6,7 +6,7 @@ authors:
   - family-names: "Corti"
     given-names: "Carlo"
     affiliation: "Independent researcher"
-version: "1.0"
+version: "1.0.1"
 date-released: "2026-06-07"
 license: "MIT"
 abstract: "C17 implementation and validation artifacts supporting the computation of A096242 through n=14."
@@ -17,4 +17,5 @@ keywords:
   - computational number theory
   - base 9
 repository-code: "https://github.com/carcorti/A096242"
-url: "https://github.com/carcorti/A096242"
+url: "https://doi.org/10.5281/zenodo.20581301"
+doi: "10.5281/zenodo.20581301"
