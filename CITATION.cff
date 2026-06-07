@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+title: "Computational Extension of OEIS Sequence A096242: Four New Terms for Base-9 Deletable Primes"
+type: software
+authors:
+  - family-names: "Corti"
+    given-names: "Carlo"
+    affiliation: "Independent researcher"
+version: "1.0"
+date-released: "2026-06-07"
+license: "MIT"
+abstract: "C17 implementation and validation artifacts supporting the computation of A096242 through n=14."
+keywords:
+  - OEIS
+  - A096242
+  - deletable primes
+  - computational number theory
+  - base 9
+repository-code: "https://github.com/carcorti/A096242"
+url: "https://github.com/carcorti/A096242"

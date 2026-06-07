@@ -1,0 +1,40 @@
+# Build artifacts
+build/
+*.o
+*_debug
+*_san
+a096242
+a096242_level_certifier
+
+# Temporary work directories
+tmp/
+levels/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# LaTeX temporary files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Backup files
+*~
+*.bak
